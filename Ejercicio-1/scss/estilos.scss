@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: auto;
+    height: auto;
+    margin: 100px;
+    padding: 75px;
+}
+.nav{
+    letter-spacing: 2px; 
+    font-size: 12px;
+}
+.nav-item{
+    margin: 0 8px 0 8px;
+}
+.item{
+    margin: 0 0px 0 0px;
+    letter-spacing: 0px; 
+    font-size: 12px;
+}
+.text-secondary{
+    font-size: 16px;
+}
+.btn-rojo{
+    padding: 15px 0 5px 0;
+}
+.rojo{
+    width: 125px;
+    height: 50px;
+}
+.pastilla1 {
+    // width: 650px;
+    // height: 350px;
+    background-color: #5265E1;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 100px;
+    z-index: -1;
+}
+
+
+@import "../libs/bootstrap/css/bootstrap";
+
+$btn-bg: #5265E1;
+.btn-primary {
+    // color: $btn-color;
+    background-color: $btn-bg;
+}
+
+$btn-bg: #FA5959;
+.btn-secondary {
+    // color: $btn-color;
+    background-color: $btn-bg;
+}
+
+$btn-bg: #f8f9fa;
+.btn-gray {
+    background-color: $btn-bg;
+}
+

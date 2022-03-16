@@ -57,7 +57,7 @@
       <!-- A SIMPLE BOOKMARK-->           
                   <div class="bloque-texto text-center text-md-start" style="margin-top: 3rem;">
                     <h1 class="titulo">A Simple Bookmark Manager</h1>
-                    <p class="text-secundario">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+                    <p class="text-parrafo">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
       
       
       <!-- BOTONES-->
@@ -72,7 +72,7 @@
       <!-- ILUSTRACIÓN PANTALLA -->
        
       <div class="caja1 col-12 col-md-6 col-lg-6 mt-5">
-          <div class="pastilla1 rounded-pill" style="width: 375px; max-height: 200px"></div>
+          <div class="pastilla1 rounded-pill"></div>
           <img src="Img/illustration-hero.svg" alt="" class="img-fluid">
         </div>
       
@@ -83,7 +83,7 @@
       <div class="row justify-content-center" style="margin-top: 100px;">
         <div class="col-12 col-md-6 col-lg-6">
           <h2 class="text-center">Features</h2>
-                 <p class="text-center text-secundario">Our aim is to make it quick and easy for yoyu to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
+                 <p class="text-center text-parrafo">Our aim is to make it quick and easy for yoyu to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.</p>
                 </div>
               </div>
       
@@ -94,18 +94,19 @@
       
       <div class="row justify-content-center col-sm-6 offset-sm-3 col-md-6 offset-md-4 col-lg-12 offset-lg-3 mt-5">
         
-        <div class="nav nav-tabs text-center border-0"  id="nav-tab" role="tablist">
+        <div class="nav nav-tabs text-center" id="nav-tab" role="tablist">
           
           <nav class="nav nav-tabs flex-colum nav-pills estilos">
-            <button type="button" class="nav-link active" data-bs-toggle="tab" data-bs-target="#tab-home">Simple Bookmarking</button>
+            <button type="button" class="nav-link active" style="width: 300px; " data-bs-toggle="tab" data-bs-target="#tab-home">Simple Bookmarking</button>
       
-            <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-about">Speedy Searching</button>
+            <button type="button" class="nav-link" style="width: 300px;" data-bs-toggle="tab" data-bs-target="#tab-about">Speedy Searching</button>
       
-            <button type="button" class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-contct">Easy Sharing</button>
+            <button type="button" class="nav-link" style="width: 300px;" data-bs-toggle="tab" data-bs-target="#tab-contct">Easy Sharing</button>
           </nav>
         
         </div>
       </div>
+      
         
         <div class="tab-content tabs">
           <!-- TAB-1 -->
@@ -114,17 +115,17 @@
             
             <div class="row">
               <div class="col-12 col-md-6 col-lg-6" style="margin-top: 5rem;" id="tab-home">
-                 <div class="rounded-pill pastilla2" style="width: 600px; max-height: 225px; margin-left: -275px;"></div>
-                 <img src="Img/illustration-features-tab-1.svg" alt="" class="img-fluid">
+                 <div class="rounded-pill pastilla2"></div>
+                 <img src="Img/illustration-features-tab-1.svg" style="margin-left: -100px;" alt="" class="img-fluid">
                </div>
             
             <!--BOOKMARK IN ONE CLICK -->
                
-              <div class="col-12 col-md-6 col-lg-6 col text-center text-md-start" style="margin-top: 12rem;" id="tab-home">
+              <div class="col-12 col-md-6 col-lg-6 text-center text-md-start bookmark" style="margin-top: 12rem;" id="tab-home">
                    
                    <div class="bookmark">
                     <h2 class="">Bookmark in one click</h1>
-                    <p class="text-secundario">organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manager your favourite sites.</p>
+                    <p class="text-parrafo">organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manager your favourite sites.</p>
                     
             
             <!-- BOTON MORE INFO-->
@@ -140,9 +141,21 @@
           <div class="tab-pane fade tab-2" id="tab-about">
             <div class="row">
               <div class="col-12 col-md-6 col-lg-6" style="margin-top: 5rem;" id="tab-about">
-                <div class="rounded-pill pastilla2" style="width: 600px; max-height: 225px; margin-left: -275px;"></div>
+                <div class="rounded-pill pastilla2"></div>
                  <img src="Img/illustration-features-tab-2.svg" alt="" class="img-fluid">
                </div>
+               <div class="col-12 col-md-6 col-lg-6 text-center text-md-start bookmark" style="margin-top: 12rem;" id="tab-home">
+                   
+                <div class="bookmark">
+                 <h2 class="">Intelligent search</h1>
+                 <p class="text-parrafo">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+                 
+         
+         <!-- BOTON MORE INFO-->
+                  <button class="btn btn-primary shadow" type="button">More info</button>
+                
+                </div>
+            </div>
               </div>
           </div>
           <!-- FIN TAB-2 -->
@@ -151,9 +164,21 @@
           <div class="tab-pane fade tab-3" id="tab-contct">
             <div class="row">
               <div class="col-12 col-md-6 col-lg-6" style="margin-top: 5rem;" id="tab-contct">
-                <div class="rounded-pill pastilla2" style="width: 600px; max-height: 225px; margin-left: -275px;"></div>
+                <div class="rounded-pill pastilla2"></div>
                  <img src="/Img/illustration-features-tab-3.svg" alt="" class="img-fluid">
                </div>
+               <div class="col-12 col-md-6 col-lg-6 text-center text-md-start bookmark" style="margin-top: 12rem;" id="tab-home">
+                   
+                <div class="bookmark">
+                 <h2 class="">Share your bookmarks</h1>
+                 <p class="text-parrafo">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+                 
+         
+         <!-- BOTON MORE INFO-->
+                  <button class="btn btn-primary shadow" type="button">More info</button>
+                
+                </div>
+            </div>
               </div>
           </div>
           <!-- FIN TAB-3 -->
@@ -164,10 +189,10 @@
       
       <!-- DOWNLOAD THE EXTENSION --> 
         
-        <div class="row justify-content-center" style="margin-top: 100px;">
+        <div class="row justify-content-center" style="margin-top: 200px;">
             <div class="col-12 col-md-6 col-lg-6">
               <h2 class="text-center">Download the extension</h2>
-                    <p class="text-center text-secundario">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+                    <p class="text-center text-parrafo">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
                     </div>
           </div>
           
@@ -223,7 +248,7 @@
        <div class="row justify-content-center" style="margin-top: 100px;">
         <div class="col-12 col-md-6 col-lg-6">
           <h2 class="text-center">Frequently Asked Questions</h2>
-                 <p class="text-center text-secundario">Here are some of our FAQs. If yoy have any other questions you'd like answered please fell to email us.</p>
+                 <p class="text-center text-parrafo">Here are some of our FAQs. If yoy have any other questions you'd like answered please fell to email us.</p>
                 </div>
       </div>
       
@@ -301,7 +326,7 @@
         </div>
       </div>
       <!-- FIN BOTON -->
-      
+
       
       </main>
     

@@ -11,12 +11,6 @@ $btn-padding-x: 1.5rem;
 $btn-font-size: 12px;
 $btn-border-radius: .5rem;
 
-$acordeon-boton-color: yellow;
-
-$accordion-button-color: $acordeon-boton-color;
-
-
-
 
 
 @import "node_modules/bootstrap/scss/functions";
@@ -45,11 +39,9 @@ $accordion-button-color: $acordeon-boton-color;
   box-sizing: border-box;
 }
 body{
-  width: 1200px;
+  width: 100%;
   height: auto;
-  margin: 50px 0 0 50px;
-  padding: 75px;
-  // overflow-x: hidden;
+  // border: 4px solid;
 }
 .nav{
   letter-spacing: 2px; 
@@ -82,7 +74,7 @@ body{
   height: 300px;
   background-color: #5265E1;
   position: absolute;
-  margin-left: -450px;
+  margin-left: -400px;
   margin-top: 120px;
   z-index: -1;
   overflow-x: hidden;
@@ -132,13 +124,9 @@ input, button, select, optgroup, textarea {
   font-size: 18px;
   line-height: inherit;
 }
-.tabs {
-  
-  
-}
-
 
 // FIN ESTILOS PESTAÑAS
+
 
 
 

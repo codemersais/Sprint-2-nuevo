@@ -41,7 +41,7 @@ $btn-border-radius: .5rem;
 body{
   width: 100%;
   height: auto;
-  // border: 4px solid;
+  border: 4px solid;
 }
 .nav{
   letter-spacing: 2px; 
@@ -124,7 +124,15 @@ input, button, select, optgroup, textarea {
   font-size: 18px;
   line-height: inherit;
 }
-
+.nav-tabs {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 0;
+}
+.boton {
+width: 275px;
+}
 // FIN ESTILOS PESTAÑAS
 
 // ACORDION
@@ -146,6 +154,7 @@ input, button, select, optgroup, textarea {
   transition: transform .2s ease-in-out;
 }
 // FIN ACCORDION
+
 
 // .estilos {
 //     font-size: 14px;

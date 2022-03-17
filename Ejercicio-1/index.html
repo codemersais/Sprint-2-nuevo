@@ -1,88 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sprint-2 Ejercicio-1 </Sprint-2></title>
-    <link href="css/estilos.css" rel="stylesheet">
-    
-</head>
-<!-- navbar-light bg-light -->
-    <body>
-<!-- NAVEGADOR-->
-        <nav class="navbar navbar-expand-lg navbar-light"> 
-          <div class="container">
-            <a class="navbar-brand" href="#">
-              <img src="img/logo-bookmark.svg" alt="" class="">
-            </a>
-
-<!-- BOTON MOVIL HAMBURGUESA-->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-
-<!-- NAV MENÚ-->
-              <ul class="nav justify-content-end collapse navbar-collapse">
-                <li class="nav-item">
-                  <a class="nav-link link-dark" aria-current="page" href="#">FEATURES</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-dark" href="#">PRECING</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link link-dark" href="#">CONTACT</a>
-                </li>
-                <li class="nav-item btn-rojo">
-<!-- NAV BOTON MENU -->
-                  <button class="rojo shadow p-3 mb-3 rounded-lg border border-0 btn btn-secondary btn-sm" type="button">
-                    LOGIN
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ejercicio-1 Sprint-2</title>
+    <!-- Bootstrap CSS -->
+    <link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="css/main.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c34bc86f7c.js" crossorigin="anonymous"></script>
+  </head>  
+  <body>
+  
+  
+      <!-- NAVEGADOR-->
+              <nav class="navbar navbar-expand-lg navbar-light"> 
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="img/logo-bookmark.svg" alt="" class="">
+                  </a>
+      
+      <!-- BOTON MOVIL HAMBURGUESA-->
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                    <span class="navbar-toggler-icon"></span>
                   </button>
-                </li> 
-              </ul>
-            </div>
-        </nav>
-
-<!-- BODY -->
       
-     <main class="container">
+      <!-- NAV MENÚ-->
+                    <ul class="nav justify-content-end collapse navbar-collapse">
+                      <li class="nav-item">
+                        <a class="nav-link link-dark" aria-current="page" href="#">FEATURES</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link-dark" href="#">PRECING</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link link-dark" href="#">CONTACT</a>
+                      </li>
+                      <li class="nav-item">
+      <!-- NAV BOTON MENU -->
+                        <button class="btn btn-secondary shadow rojo" type="button">
+                          LOGIN
+                        </button>
+                      </li> 
+                    </ul>
+                  </div>
+              </nav>
+      
+      <!-- BODY -->
+            
+           <main class="container">
+             
+            <div class="row mt-5">
+              
+              <div class="col-12 col-md-6 col-lg-6">
+          
+      <!-- A SIMPLE BOOKMARK-->           
+                  <div class="bloque-texto text-center text-md-start" style="margin-top: 3rem;">
+                    <h1 class="titulo">A Simple Bookmark Manager</h1>
+                    <p class="text-parrafo">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+      
+      
+      <!-- BOTONES-->
+      
+      <!-- <div class="d-grid gap-2 d-md-block"></div> -->
+      
+                    <button class="btn btn-primary shadow" type="button">Get it on Chrome</button>
+                    <button class="btn btn-gray shadow" type="button">Get it on Firefox</button>
+                  </div>
+               </div>
+      
+      <!-- ILUSTRACIÓN PANTALLA -->
        
-      <div class="row mt-5">
-        
-        <div class="col-12 col-md-6 col-lg-6">
-    
-<!-- A SIMPLE BOOKMARK-->           
-            <div class="bloque-texto text-center text-md-start" style="margin-top: 3rem;">
-              <h1 class="titulo">A Simple Bookmark Manager</h1>
-              <p class="text-secondary">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
-
-
-<!-- BOTONES-->
-
-            <button class="btn btn-primary shadow p-3 mb-3 btn-sm" type="button">Get it on Chrome</button>
-              <button class="btn btn-gray shadow p-3 mb-3 btn-sm" type="button">Get it on Firefox</button>
-            </div>
-         </div>
-
-<!-- ILUSTRACIÓN PANTALLA -->
- 
-<div class="caja1 col-12 col-md-6 col-lg-6 mt-5">
-    <div class="pastilla1 rounded-pill" style="width: 375px; max-height: 200px"></div>
-    <img src="Img/illustration-hero.svg" alt="" class="img-fluid">
-  </div>
-
-</div>
-
-
-
-</main>
-
-
-<script src="libs/bootstrap/js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
-
-   
+      <div class="caja1 col-12 col-md-6 col-lg-6 mt-5">
+          <div class="pastilla1 rounded-pill"></div>
+          <img src="Img/illustration-hero.svg" alt="" class="img-fluid">
+        </div>
       
+      </div>
+    
+    
+    </main>
+  
+  </body>
+  
+  </html>
